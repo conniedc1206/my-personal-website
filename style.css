@@ -1,0 +1,73 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lavender;
+    max-width: 100%;
+}
+
+/*title*/
+h1 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/*nav bar*/
+.nav-list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding: 0.5em;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/*intro section*/
+.intro {
+    margin: 2em 0;
+    padding: 2em;
+    box-shadow: 0 0 2rem -0.5rem black;
+    font-size: 2rem;
+}
+
+.intro-image {
+    width: 250px;
+    float: left;
+    padding: 1em;
+}
+
+/*footer bar*/
+footer {
+    font-size: 2rem;
+    float: center;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    margin: 1em;
+}
+
+/*links*/
+a:link, a:visited {
+    background-color: blueviolet;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+/* mouse over link */
+a:hover, a:active {
+    background-color: orange;
+}
+  
