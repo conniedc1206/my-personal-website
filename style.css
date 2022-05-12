@@ -70,4 +70,53 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: orange;
 }
-  
+
+/*makes images easier to work with*/
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*ages 0-1 page*/
+
+.container {
+    box-sizing: border-box;
+}
+
+.book-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.card {
+    background: white;
+    border: 5px solid purple;
+}
+
+.card__content {
+    align-self: auto;
+    margin: .5rem .5rem 2rem;
+    padding: .5rem;
+    font-family: Garamond;
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.card__content h2 {
+    font-size: 2rem;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.card__content p {
+    font-size: 2rem;
+}
